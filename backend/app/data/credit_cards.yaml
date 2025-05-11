@@ -1,0 +1,37 @@
+- name: "Cash Rewards Card"
+  annual_fee: 0
+  rewards:
+    Grocery: 0.03
+    Dining: 0.03
+    Gas: 0.03
+    Other: 0.01
+  welcome_bonus:
+    spend: 500
+    timeframe_months: 3
+    reward: 200
+
+- name: "Travel Elite Card"
+  annual_fee: 95
+  rewards:
+    Travel: 0.05
+    Dining: 0.03
+    Other: 0.015
+  welcome_bonus:
+    spend: 3000
+    timeframe_months: 3
+    reward: 750
+    reward_type: "points"
+
+- name: "Premium Rewards Card"
+  annual_fee: 550
+  rewards:
+    Travel: 0.05
+    Dining: 0.04
+    Entertainment: 0.04
+    Grocery: 0.02
+    Other: 0.02
+  welcome_bonus:
+    spend: 6000
+    timeframe_months: 6
+    reward: 1500
+    reward_type: "points"
